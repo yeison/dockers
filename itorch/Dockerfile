@@ -84,8 +84,8 @@ RUN /bin/bash --login -c "luarocks list"
 # Configure container startup
 EXPOSE 8888
 WORKDIR /home/$NB_USER/work
-#ENTRYPOINT ["tini", "--"]
-#CMD ["start-notebook.sh"]
+ENTRYPOINT ["tini", "--"]
+CMD ["start-notebook.sh"]
 
 # Add local files as late as possible to avoid cache busting
 RUN chown -R $NB_USER:users /home/$NB_USER/.jupyter
