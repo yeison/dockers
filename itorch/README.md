@@ -1,8 +1,7 @@
 To run itorch on port 9999 :
 
-```mkdir jupyter_workdir```
-
-```docker run -p 9999:8888 -v $HOME/jupyter_workdir:/home/jovyan/work -it devyeison/jupyteritorch```
+```mkdir jupyter_workdir && \
+docker run -p 9999:8888 -v $HOME/jupyter_workdir:/home/jovyan/work -it devyeison/jupyteritorch```
 
 
 
