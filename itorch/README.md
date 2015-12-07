@@ -24,4 +24,4 @@ Please see the Dockerfile for more details:
 
 https://github.com/yeison/dockers/blob/master/itorch/Dockerfile
 
-known issues:  there might be an issue with running more than one container at a time.  I don't know what the problem may be.
+known issues:  there might be an issue with running more than one container at a time.
