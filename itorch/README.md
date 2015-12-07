@@ -9,10 +9,15 @@ To run itorch on port 9999 :
 This docker image contains the following:
 
 -jupyter
+
 -itorch
+
 -torch7
+
 -cuda
+
 -opencv
+
 -boost
 
 Please see the Dockerfile for more details:
